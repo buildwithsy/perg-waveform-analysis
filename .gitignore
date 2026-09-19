@@ -1,0 +1,7 @@
+venv/
+input/
+qc_images/
+qc_images.zip
+__pycache__/
+*.pyc
+.DS_Store
