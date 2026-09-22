@@ -151,3 +151,7 @@ Normal群と主要な疾患群でP50振幅・N95:P50比をMann-Whitney U検定�
 このリポジトリのコードはMITライセンスの下で公開しています。
 使用データセット（PERG-IOBA Dataset）は、Open Data Commons Attribution License v1.0の下で提供されています。
 データセットを利用する際は、上記の引用元を明記してください。
+
+## 関連プロジェクト
+
+- [RNA-seq組織特異的発現解析](https://github.com/buildwithsy/rna-seq-tissue-specific-expression) - Human Protein AtlasのヒトRNA-seqデータを用いた組織特異的発現解析。SQL（前処理）とPython（PCA・階層的クラスタリング・Tau index）を役割分担して実装。時系列信号のピーク検出とは異なる解析軸でのスキルを示すプロジェクトです。
