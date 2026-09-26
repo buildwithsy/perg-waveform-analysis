@@ -1,0 +1,9 @@
+threshold,response_detected_flips,low_confidence_flips,p50_amplitude_changed(>0.05uV),n95_amplitude_changed(>0.05uV)
+0.1,17,4,28,0
+0.15,14,3,24,0
+0.2,14,3,16,0
+0.25,7,1,8,0
+0.35,12,6,12,0
+0.4,20,10,26,0
+0.5,54,27,51,0
+0.6,80,39,74,0
