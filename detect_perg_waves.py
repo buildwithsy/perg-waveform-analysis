@@ -141,7 +141,8 @@ N95_PLAUSIBLE_RANGE_MSEC = (70.0, 130.0)
 # プロミネンス分布は中央値1.4〜2.7uVで、閾値0.3ギリギリ(0.3-0.4uV)のケースは
 # 1.4〜2.5%程度と少数。閾値を0.1〜0.6で振る感度分析でも、0.3から離れるほど
 # 検出結果の変化件数が増える(0.3付近が局所的に安定)ことを確認済み。
-# 詳細：意思決定ログ2026-09-26のエントリ、prominence_sensitivity_result.csv参照。
+# 詳細：prominence_sensitivity.py（検証スクリプト）・
+# prominence_sensitivity_result.csv（検証結果）参照。
 MIN_PEAK_PROMINENCE_uV = 0.3
 
 # P50振幅がこの値を下回ったら low_confidence フラグを立てる。
